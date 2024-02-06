@@ -6,7 +6,8 @@
 }
 
 body {
-    font-family: cursive;   
+    font-family: cursive; 
+    background-color: white;  
 }
 
 body > h2 {
@@ -18,15 +19,19 @@ body > h2 {
 header {
     padding: 30px;
     text-align: center;
+    background-color: black;
+    color: wheat;
 }
 
 main {
+    font-size: 1.2em;
+    text-align: justify;
     min-width: 300px;
     max-width: 600px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
-    background-color: white;
+    background-color: wheat;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
     border-radius: 10px;
 }
@@ -36,6 +41,8 @@ article > ul {
 }
 
 footer {
-    padding: 50px;
+    padding: 30px;
     text-align: center;
+    background-color: black;
+    color: white;
 }
