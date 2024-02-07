@@ -16,6 +16,10 @@ header {
     color: wheat;
 }
 
+header > h1 {
+    font-size: bo;
+}
+
 main {
     min-width: 300px;
     max-width: 700px;
@@ -35,9 +39,12 @@ main > h2 {
 article > ul {
     font-size: 1.3em;
     font-weight: bold;
+    padding: 5px;
 }
 
 footer {
     padding: 25px;
     text-align: center;
+    background-color: black;
+    color: wheat;
 }
